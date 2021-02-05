@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="StopParkAPI">
+      <HintPath>bin\Debug\netcoreapp3.1\StopParkAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports">
+      <HintPath>bin\Debug\netcoreapp3.1\System.IO.Ports.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
